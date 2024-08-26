@@ -4,5 +4,5 @@ function onWorkerReady(){
 
 console.log('init');
 
-// navigator.serviceWorker.register('worker.js')
+navigator.serviceWorker.register('worker.js')
 navigator.serviceWorker.ready.then(onWorkerReady)
